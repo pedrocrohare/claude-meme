@@ -7,7 +7,7 @@ A Claude skill that answers funny moments with reaction memes. When you're jokin
 **Claude Code**
 
 ```
-/plugin marketplace add OWNER/claude-meme
+/plugin marketplace add pedrocrohare/claude-meme
 /plugin install claude-meme@claude-meme
 ```
 

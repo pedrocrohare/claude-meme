@@ -3,7 +3,626 @@
     "id": "fuerza-leona",
     "file": "fuerza-leona.png",
     "caption": "FUERZA LEONA 🦁🌹",
-    "tags": ["aliento", "tia", "whatsapp", "bendiciones", "epico", "cringe"],
-    "aliases": ["fuerza leona", "leona", "leon"]
+    "tags": [
+      "aliento",
+      "tia",
+      "whatsapp",
+      "bendiciones",
+      "epico",
+      "cringe"
+    ],
+    "aliases": [
+      "fuerza leona",
+      "leona",
+      "leon"
+    ],
+    "category": "aliento"
+  },
+  {
+    "id": "laughing-leo",
+    "file": "laughing-leo.png",
+    "caption": "JAJAJAJA 🥂",
+    "category": "risa",
+    "tags": [
+      "risa",
+      "jaja",
+      "lol"
+    ],
+    "aliases": [
+      "leo riendo"
+    ]
+  },
+  {
+    "id": "leo-cheers",
+    "file": "leo-cheers.jpg",
+    "caption": "Salud por eso 🥂",
+    "category": "risa",
+    "tags": [
+      "risa",
+      "celebracion",
+      "brindis"
+    ],
+    "aliases": [
+      "dicaprio",
+      "cheers"
+    ]
+  },
+  {
+    "id": "inhaling-seagull",
+    "file": "inhaling-seagull.jpg",
+    "caption": "AAAAAAAAAAAA",
+    "category": "risa",
+    "tags": [
+      "risa",
+      "gritar",
+      "caps"
+    ],
+    "aliases": [
+      "gaviota"
+    ]
+  },
+  {
+    "id": "absolute-cinema",
+    "file": "absolute-cinema.png",
+    "caption": "ABSOLUTE CINEMA 🎬",
+    "category": "celebracion",
+    "tags": [
+      "celebracion",
+      "epico",
+      "obra maestra"
+    ],
+    "aliases": [
+      "cinema",
+      "cine"
+    ]
+  },
+  {
+    "id": "oprah-you-get",
+    "file": "oprah-you-get.jpg",
+    "caption": "¡Y tú te llevas uno! ¡Y tú también!",
+    "category": "celebracion",
+    "tags": [
+      "celebracion",
+      "regalo",
+      "todos"
+    ],
+    "aliases": [
+      "oprah"
+    ]
+  },
+  {
+    "id": "epic-handshake",
+    "file": "epic-handshake.jpg",
+    "caption": "🤝 Acuerdo épico",
+    "category": "celebracion",
+    "tags": [
+      "celebracion",
+      "acuerdo",
+      "equipo"
+    ],
+    "aliases": [
+      "handshake",
+      "apreton"
+    ]
+  },
+  {
+    "id": "rock-driving",
+    "file": "rock-driving.jpg",
+    "caption": "Vamos con todo 🚗",
+    "category": "celebracion",
+    "tags": [
+      "celebracion",
+      "epico",
+      "decision"
+    ],
+    "aliases": [
+      "the rock"
+    ]
+  },
+  {
+    "id": "this-is-fine",
+    "file": "this-is-fine.jpg",
+    "caption": "This is fine 🔥☕",
+    "category": "fail",
+    "tags": [
+      "fail",
+      "bug",
+      "prod",
+      "caos",
+      "panico"
+    ],
+    "aliases": [
+      "todo bien",
+      "esta bien"
+    ]
+  },
+  {
+    "id": "bike-fall",
+    "file": "bike-fall.jpg",
+    "caption": "Me lo hice yo mismo",
+    "category": "fail",
+    "tags": [
+      "fail",
+      "bug",
+      "autosabotaje"
+    ],
+    "aliases": [
+      "bici"
+    ]
+  },
+  {
+    "id": "disaster-girl",
+    "file": "disaster-girl.jpg",
+    "caption": "Yo después de hacer el deploy un viernes",
+    "category": "fail",
+    "tags": [
+      "fail",
+      "prod",
+      "caos",
+      "ironia"
+    ],
+    "aliases": [
+      "disaster girl"
+    ]
+  },
+  {
+    "id": "bad-luck-brian",
+    "file": "bad-luck-brian.jpg",
+    "caption": "Mala suerte, Brian",
+    "category": "fail",
+    "tags": [
+      "fail",
+      "mala suerte"
+    ],
+    "aliases": [
+      "brian"
+    ]
+  },
+  {
+    "id": "domino-effect",
+    "file": "domino-effect.jpg",
+    "caption": "Un cambio chiquito... 🀄",
+    "category": "fail",
+    "tags": [
+      "fail",
+      "bug",
+      "cascada"
+    ],
+    "aliases": [
+      "domino"
+    ]
+  },
+  {
+    "id": "flex-tape",
+    "file": "flex-tape.png",
+    "caption": "Fix temporal (permanente)",
+    "category": "fail",
+    "tags": [
+      "fail",
+      "hack",
+      "parche",
+      "bug"
+    ],
+    "aliases": [
+      "flex tape",
+      "parche"
+    ]
+  },
+  {
+    "id": "hide-the-pain-harold",
+    "file": "hide-the-pain-harold.jpg",
+    "caption": "Todo bien 🙂",
+    "category": "frustracion",
+    "tags": [
+      "frustracion",
+      "sufrir",
+      "lunes",
+      "ironia"
+    ],
+    "aliases": [
+      "harold"
+    ]
+  },
+  {
+    "id": "woman-yelling-cat",
+    "file": "woman-yelling-cat.jpg",
+    "caption": "😾",
+    "category": "frustracion",
+    "tags": [
+      "frustracion",
+      "pelea",
+      "discusion"
+    ],
+    "aliases": [
+      "gato",
+      "cat"
+    ]
+  },
+  {
+    "id": "waiting-skeleton",
+    "file": "waiting-skeleton.jpg",
+    "caption": "Esperando que termine el build 💀",
+    "category": "frustracion",
+    "tags": [
+      "frustracion",
+      "espera",
+      "lento",
+      "build"
+    ],
+    "aliases": [
+      "esqueleto",
+      "waiting"
+    ]
+  },
+  {
+    "id": "sleeping-shaq",
+    "file": "sleeping-shaq.jpg",
+    "caption": "😴",
+    "category": "frustracion",
+    "tags": [
+      "frustracion",
+      "aburrido",
+      "espera",
+      "sueño"
+    ],
+    "aliases": [
+      "shaq"
+    ]
+  },
+  {
+    "id": "sad-pablo",
+    "file": "sad-pablo.jpg",
+    "caption": "Esperando...",
+    "category": "frustracion",
+    "tags": [
+      "frustracion",
+      "espera",
+      "soledad",
+      "aburrido"
+    ],
+    "aliases": [
+      "pablo",
+      "escobar"
+    ]
+  },
+  {
+    "id": "batman-slap",
+    "file": "batman-slap.jpg",
+    "caption": "👋💥",
+    "category": "frustracion",
+    "tags": [
+      "frustracion",
+      "callate",
+      "no"
+    ],
+    "aliases": [
+      "batman",
+      "bofetada"
+    ]
+  },
+  {
+    "id": "surprised-pikachu",
+    "file": "surprised-pikachu.jpg",
+    "caption": "😮",
+    "category": "sorpresa",
+    "tags": [
+      "sorpresa",
+      "obvio",
+      "ironia",
+      "bug"
+    ],
+    "aliases": [
+      "pikachu"
+    ]
+  },
+  {
+    "id": "monkey-puppet",
+    "file": "monkey-puppet.jpg",
+    "caption": "👀",
+    "category": "sorpresa",
+    "tags": [
+      "sorpresa",
+      "incomodo",
+      "cringe"
+    ],
+    "aliases": [
+      "mono",
+      "monkey"
+    ]
+  },
+  {
+    "id": "panik-kalm",
+    "file": "panik-kalm.png",
+    "caption": "Panik. Kalm. PANIK.",
+    "category": "sorpresa",
+    "tags": [
+      "sorpresa",
+      "panico",
+      "bug",
+      "prod"
+    ],
+    "aliases": [
+      "panik",
+      "kalm"
+    ]
+  },
+  {
+    "id": "megamind-peeking",
+    "file": "megamind-peeking.png",
+    "caption": "👀 ¿Oíste eso?",
+    "category": "sorpresa",
+    "tags": [
+      "sorpresa",
+      "chisme",
+      "curioso"
+    ],
+    "aliases": [
+      "megamind"
+    ]
+  },
+  {
+    "id": "is-this-a-pigeon",
+    "file": "is-this-a-pigeon.jpg",
+    "caption": "¿Esto es una paloma?",
+    "category": "confusion",
+    "tags": [
+      "confusion",
+      "duda",
+      "tonto"
+    ],
+    "aliases": [
+      "paloma",
+      "pigeon",
+      "mariposa"
+    ]
+  },
+  {
+    "id": "futurama-fry",
+    "file": "futurama-fry.jpg",
+    "caption": "No estoy seguro si...",
+    "category": "confusion",
+    "tags": [
+      "confusion",
+      "duda",
+      "sospecha"
+    ],
+    "aliases": [
+      "fry"
+    ]
+  },
+  {
+    "id": "skeptical-kid",
+    "file": "skeptical-kid.jpg",
+    "caption": "🤨",
+    "category": "confusion",
+    "tags": [
+      "confusion",
+      "sospecha",
+      "duda"
+    ],
+    "aliases": [
+      "nene esceptico"
+    ]
+  },
+  {
+    "id": "same-picture",
+    "file": "same-picture.jpg",
+    "caption": "Es la misma foto",
+    "category": "confusion",
+    "tags": [
+      "confusion",
+      "igual",
+      "ironia"
+    ],
+    "aliases": [
+      "misma imagen",
+      "same picture"
+    ]
+  },
+  {
+    "id": "spiderman-pointing",
+    "file": "spiderman-pointing.jpg",
+    "caption": "🫵 🫵",
+    "category": "confusion",
+    "tags": [
+      "confusion",
+      "igual",
+      "culpa"
+    ],
+    "aliases": [
+      "spiderman"
+    ]
+  },
+  {
+    "id": "mocking-spongebob",
+    "file": "mocking-spongebob.jpg",
+    "caption": "eS mUy fÁcIl",
+    "category": "ironia",
+    "tags": [
+      "ironia",
+      "burla",
+      "sarcasmo"
+    ],
+    "aliases": [
+      "bob esponja",
+      "spongebob"
+    ]
+  },
+  {
+    "id": "roll-safe",
+    "file": "roll-safe.jpg",
+    "caption": "Si no hay tests, no fallan los tests 🧠",
+    "category": "ironia",
+    "tags": [
+      "ironia",
+      "genio",
+      "hack",
+      "big brain"
+    ],
+    "aliases": [
+      "roll safe",
+      "pensar"
+    ]
+  },
+  {
+    "id": "always-has-been",
+    "file": "always-has-been.png",
+    "caption": "Siempre lo fue 🔫👨‍🚀",
+    "category": "ironia",
+    "tags": [
+      "ironia",
+      "revelacion",
+      "obvio"
+    ],
+    "aliases": [
+      "always has been",
+      "siempre fue"
+    ]
+  },
+  {
+    "id": "clown-makeup",
+    "file": "clown-makeup.jpg",
+    "caption": "🤡",
+    "category": "ironia",
+    "tags": [
+      "ironia",
+      "autosabotaje",
+      "cringe"
+    ],
+    "aliases": [
+      "payaso",
+      "clown"
+    ]
+  },
+  {
+    "id": "expanding-brain",
+    "file": "expanding-brain.jpg",
+    "caption": "🧠✨",
+    "category": "ironia",
+    "tags": [
+      "ironia",
+      "genio",
+      "big brain"
+    ],
+    "aliases": [
+      "cerebro"
+    ]
+  },
+  {
+    "id": "tuxedo-pooh",
+    "file": "tuxedo-pooh.png",
+    "caption": "Fancy 🎩",
+    "category": "ironia",
+    "tags": [
+      "ironia",
+      "elegante",
+      "fino"
+    ],
+    "aliases": [
+      "pooh",
+      "winnie"
+    ]
+  },
+  {
+    "id": "drake",
+    "file": "drake.jpg",
+    "caption": "Nah / Sí 👆",
+    "category": "decision",
+    "tags": [
+      "decision",
+      "preferencia",
+      "comparacion"
+    ],
+    "aliases": [
+      "drake"
+    ]
+  },
+  {
+    "id": "two-buttons",
+    "file": "two-buttons.jpg",
+    "caption": "😰 ¿Cuál aprieto?",
+    "category": "decision",
+    "tags": [
+      "decision",
+      "duda",
+      "dilema"
+    ],
+    "aliases": [
+      "dos botones",
+      "botones"
+    ]
+  },
+  {
+    "id": "left-exit",
+    "file": "left-exit.jpg",
+    "caption": "🚗💨 Saliendo por la derecha",
+    "category": "decision",
+    "tags": [
+      "decision",
+      "cambio de planes"
+    ],
+    "aliases": [
+      "salida",
+      "exit 12"
+    ]
+  },
+  {
+    "id": "distracted-boyfriend",
+    "file": "distracted-boyfriend.jpg",
+    "caption": "Yo con el framework nuevo",
+    "category": "decision",
+    "tags": [
+      "decision",
+      "distraccion",
+      "nuevo"
+    ],
+    "aliases": [
+      "novio distraido"
+    ]
+  },
+  {
+    "id": "change-my-mind",
+    "file": "change-my-mind.jpg",
+    "caption": "Change my mind ☕",
+    "category": "decision",
+    "tags": [
+      "decision",
+      "opinion",
+      "debate"
+    ],
+    "aliases": [
+      "change my mind",
+      "cambia mi opinion"
+    ]
+  },
+  {
+    "id": "buff-doge",
+    "file": "buff-doge.png",
+    "caption": "💪 Fuerte",
+    "category": "aliento",
+    "tags": [
+      "aliento",
+      "fuerza",
+      "comparacion"
+    ],
+    "aliases": [
+      "doge",
+      "cheems"
+    ]
+  },
+  {
+    "id": "trade-offer",
+    "file": "trade-offer.jpg",
+    "caption": "Trade offer 🤝",
+    "category": "aliento",
+    "tags": [
+      "aliento",
+      "propuesta",
+      "acuerdo"
+    ],
+    "aliases": [
+      "trade offer",
+      "oferta"
+    ]
   }
 ]

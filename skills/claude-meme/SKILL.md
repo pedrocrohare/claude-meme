@@ -27,7 +27,8 @@ Fire when at least one is true:
 ## How to pick
 
 1. Read the vibe: what is the user feeling or doing right now?
-2. Run `python3 scripts/pick_meme.py <tag> [<tag> ...]` from this skill's folder. It prints a JSON object with the chosen meme's path, caption and tags. Tags available are listed with `python3 scripts/pick_meme.py --tags`.
+2. Pick a category: `risa`, `celebracion`, `fail` (bugs, prod on fire), `frustracion` (waiting, Mondays), `sorpresa`, `confusion`, `ironia`, `decision`, `aliento`. Run `python3 scripts/pick_meme.py --category <name>` for a random one, or list them with `--categories`.
+   For a finer match run `python3 scripts/pick_meme.py <tag> [<tag> ...]` from this skill's folder. It prints a JSON object with the chosen meme's path, caption and tags. Tags available are listed with `python3 scripts/pick_meme.py --tags`.
 3. If the user quoted a meme that exists in the catalog (by `id` or `aliases`), send that exact one: `python3 scripts/pick_meme.py --id <id>`.
 
 ## How to deliver
@@ -49,6 +50,7 @@ Drop the image in `memes/` and add an entry to `memes/catalog.json`:
   "id": "fuerza-leona",
   "file": "fuerza-leona.png",
   "caption": "FUERZA LEONA 🦁🌹",
+  "category": "aliento",
   "tags": ["aliento", "tía", "whatsapp", "bendiciones"],
   "aliases": ["fuerza leona", "leona"]
 }

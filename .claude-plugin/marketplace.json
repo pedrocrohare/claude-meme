@@ -1,0 +1,11 @@
+{
+  "name": "claude-meme",
+  "owner": { "name": "Pedro Crohare" },
+  "plugins": [
+    {
+      "name": "claude-meme",
+      "source": "./",
+      "description": "Claude answers funny moments with reaction memes."
+    }
+  ]
+}

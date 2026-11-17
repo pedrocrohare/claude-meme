@@ -5,6 +5,8 @@ Usage:
   pick_meme.py <tag> [<tag> ...]   best match by tag overlap (random among ties)
   pick_meme.py --id <id|alias>     exact meme
   pick_meme.py --tags              list available tags
+  pick_meme.py --categories        list categories with their memes
+  pick_meme.py --category <name>   random meme from a category
   pick_meme.py                     random meme
 """
 import json
@@ -31,6 +33,7 @@ def out(meme):
         "id": meme["id"],
         "path": str(MEMES_DIR / meme["file"]),
         "caption": meme.get("caption", ""),
+        "category": meme.get("category", ""),
         "tags": meme.get("tags", []),
     }, ensure_ascii=False))
 
@@ -44,6 +47,23 @@ def main(argv):
         tags = sorted({norm(t) for m in catalog for t in m.get("tags", [])})
         print("\n".join(tags))
         return
+
+    if argv[:1] == ["--categories"]:
+        cats = {}
+        for m in catalog:
+            cats.setdefault(m.get("category", "sin-categoria"), []).append(m["id"])
+        for c in sorted(cats):
+            print(f"{c} ({len(cats[c])}): {', '.join(cats[c])}")
+        return
+
+    if argv[:1] == ["--category"]:
+        if len(argv) < 2:
+            sys.exit("--category needs a value")
+        key = norm(argv[1])
+        pool = [m for m in catalog if norm(m.get("category", "")) == key]
+        if not pool:
+            sys.exit(f"no category '{key}'")
+        return out(random.choice(pool))
 
     if argv[:1] == ["--id"]:
         if len(argv) < 2:

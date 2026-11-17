@@ -1,6 +1,6 @@
 {
   "name": "claude-meme",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Claude answers funny moments with reaction memes. Shitposting as a service.",
   "author": { "name": "Pedro Crohare" },
   "license": "MIT",

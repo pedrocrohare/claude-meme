@@ -13,7 +13,7 @@ A Claude skill that answers funny moments with reaction memes. When you're jokin
 
 **Claude app (claude.ai / desktop)**
 
-Download `claude-meme.zip` from Releases (or zip the `skills/claude-meme` folder) and upload it in Settings → Capabilities → Skills.
+Download [`web/meme-reply.zip`](web/meme-reply.zip) and upload it as a skill in Claude's settings. This version pulls memes live from this repo, so new memes show up without reinstalling. It needs a Claude session that can run commands and send files.
 
 ## Add your own memes
 

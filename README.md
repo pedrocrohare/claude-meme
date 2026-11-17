@@ -2,18 +2,43 @@
 
 A Claude skill that answers funny moments with reaction memes. When you're joking, shitposting, celebrating or sending memes yourself, Claude fires one back. When things are serious, it stays quiet.
 
-## Install
+## Two skills, same memes
 
-**Claude Code**
+This repo ships two versions of the skill. Both use the same catalog in `skills/claude-meme/memes/`.
+
+| | `claude-meme` | `meme-reply` |
+|---|---|---|
+| For | Claude Code (terminal) | Claude app (claude.ai, desktop, mobile) |
+| Lives in | `skills/claude-meme/` | `web/meme-reply/` (zipped as `web/meme-reply.zip`) |
+| Memes | Bundled with the plugin | Fetched live from this repo on GitHub |
+| Picks with | `scripts/pick_meme.py` | Reads `catalog.json` and matches tags/aliases itself |
+| Shows the meme | Opens the image (`open` on macOS) | Sends the image as a file in the chat |
+| New memes | After `/plugin marketplace update claude-meme` | As soon as they're on `main`, no reinstall |
+
+## Install in Claude Code
 
 ```
 /plugin marketplace add pedrocrohare/claude-meme
 /plugin install claude-meme@claude-meme
 ```
 
-**Claude app (claude.ai / desktop)**
+To get new memes later: `/plugin marketplace update claude-meme`.
 
-Download [`web/meme-reply.zip`](web/meme-reply.zip) and upload it as a skill in Claude's settings. This version pulls memes live from this repo, so new memes show up without reinstalling. It needs a Claude session that can run commands and send files.
+## Install in the Claude app (claude.ai / desktop)
+
+1. Download [`web/meme-reply.zip`](web/meme-reply.zip).
+2. In Claude, open **Settings → Capabilities** and make sure **Code execution and file creation** is on. The skill needs it to download the meme and send it to you.
+3. If network access is restricted, allow `raw.githubusercontent.com` so the skill can fetch the catalog and images.
+4. In **Settings → Capabilities → Skills**, click **Upload skill** and pick the zip.
+5. Start a chat and joke around (try "jajaja" or "deployé un viernes").
+
+How it works: when the moment is funny, Claude downloads `catalog.json` from this repo, picks the meme that fits the vibe, downloads that image and sends it in the chat with its caption. If GitHub can't be reached it skips the meme and just answers normally.
+
+To update the web skill itself (not the memes), edit `web/meme-reply/SKILL.md`, rebuild the zip and upload it again:
+
+```
+cd web && rm meme-reply.zip && zip -r meme-reply.zip meme-reply
+```
 
 ## Categories
 
